@@ -1,0 +1,7 @@
+const menu=document.querySelector('.menu'),nav=document.querySelector('#nav');
+menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.classList.toggle('open',open)});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
+document.querySelectorAll('[data-service]').forEach(a=>a.addEventListener('click',()=>{document.querySelector('select[name="service"]').value=a.dataset.service}));
+document.querySelector('#year').textContent=new Date().getFullYear();
+document.querySelector('#inquiry').addEventListener('submit',e=>{e.preventDefault();const data=new FormData(e.currentTarget);document.querySelector('#summary').value=`Faithful Gatherings inquiry\n\nName: ${data.get('name')}\nEmail: ${data.get('email')}\nService: ${data.get('service')}\nEvent date: ${data.get('date')||'To be decided'}\n\n${data.get('message')}`;document.querySelector('#result').hidden=false;document.querySelector('#summary').focus()});
+document.querySelector('#copy').addEventListener('click',async()=>{const summary=document.querySelector('#summary');try{await navigator.clipboard.writeText(summary.value);document.querySelector('#copy-status').textContent='Copied to clipboard.'}catch{summary.focus();summary.select();document.querySelector('#copy-status').textContent='Select and copy the prepared inquiry above.'}});
