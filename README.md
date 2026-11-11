@@ -21,7 +21,7 @@ A custom domain is optional and can be connected later through Pages settings.
 ## Editing
 
 - `index.html`: page content and sections.
-- `styles.css`: colors, typography, responsive layouts.
+- `styles.css` and `bold.css`: colors, typography, responsive layouts.
 - `site.js`: mobile navigation and inquiry preparation.
 - `assets/`: photographs reused from the existing public Wix website.
 
@@ -29,6 +29,6 @@ The site uses relative asset paths so it works at a GitHub Pages project URL. Fo
 
 ## Content and design
 
-Home → Services → Our heart → The experience → Inquiry builder.
+Home → Services → Budget-first approach → Our heart and minister introduction → The experience → FAQs → Inquiry builder.
 
-Soft gray, deep slate blue, editorial serif typography, an arched lead photograph, and a responsive mobile layout. Business content is based on https://mesquitebaseballof.wixsite.com/faithful-beginnings . The owner has confirmed they are an ordained minister. No testimonials, prices, or contact details have been invented.
+A bold editorial design with a full-bleed photographic hero, oversized serif headlines, deep navy and silver-gray sections, the approved FG cross seal, responsive service layouts, and accessible expandable FAQs. Business content is based on https://mesquitebaseballof.wixsite.com/faithful-beginnings . The owner has confirmed they are an ordained minister. No testimonials, prices, or contact details have been invented.
