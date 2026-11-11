@@ -31,4 +31,4 @@ The site uses relative asset paths so it works at a GitHub Pages project URL. Fo
 
 Home → Services → Our heart → The experience → Inquiry builder.
 
-Warm ivory, deep olive, editorial serif typography, an arched lead photograph, and a responsive mobile layout. Business content is based on https://mesquitebaseballof.wixsite.com/faithful-beginnings . No testimonials, credentials, prices, or contact details have been invented.
+Soft gray, deep slate blue, editorial serif typography, an arched lead photograph, and a responsive mobile layout. Business content is based on https://mesquitebaseballof.wixsite.com/faithful-beginnings . The owner has confirmed they are an ordained minister. No testimonials, prices, or contact details have been invented.
